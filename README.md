@@ -35,7 +35,7 @@ The goal of Optimized Oasis is to provide Minecraft players with a modpack that 
 
 #### Manual Install
 
-1. Download the latest release of the Optimized Oasis modpack from the [releases page](https://github.com/username/repo/releases).
+1. Download the latest release of the Optimized Oasis modpack from the [releases page](https://github.com/SteamWo1f/Optimized-Oasis/releases).
 2. Extract the contents of the downloaded zip file to a new folder on your computer.
 3. Open the Prism Launcher and click the "Add Instance" button to create a new profile.
 4. Give your new profile a name and select the version of Minecraft that corresponds with the version of the modpack you downloaded.
