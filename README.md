@@ -27,7 +27,7 @@ Optimized Oasis is a lightweight Minecraft modpack that enhances your gameplay e
 
 Optimized Oasis is a Minecraft modpack designed to enhance the vanilla gameplay experience. This modpack carefully selects mods that provide additional features while staying true to the vanilla mechanics.
 
-Included in the modpack are mods that offer customizable user interface and settings, performance optimization for smoother gameplay, quality of life improvements, and audio and visual enhancements. These enhancements include 3D skin layers, improved textures, improved F3 debug menu, and enchantment descriptions, as well as chat management tools and voice chat options.
+Included in the modpack are mods that offer customizable user interface and settings, performance optimization for smoother gameplay, quality of life improvements, and audio and visual enhancements. These enhancements include improved textures, improved F3 debug menu, and enchantment descriptions, as well as chat management tools and voice chat options.
 
 The goal of Optimized Oasis is to provide Minecraft players with a modpack that enhances their gaming experience without deviating too far from vanilla gameplay. It is ideal for those who want to improve their gameplay experience without risking bans on their favorite servers.
 
