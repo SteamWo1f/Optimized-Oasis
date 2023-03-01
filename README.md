@@ -4,7 +4,7 @@
   <a href="https://www.curseforge.com/minecraft/modpacks/optimized-oasis">
     <img src="https://img.shields.io/badge/Download%20From-CurseForge-%23F16436">
   </a>
-  <a href="https://github.com/SteamWo1f/Optimized-Oasis">
+  <a href="https://github.com/SteamWo1f/Optimized-Oasis/releases">
     <img src="https://img.shields.io/badge/Download%20From-GitHub-%23171515">
   </a>
  <a href="https://modrinth.com/modpack/optimized-oasis">
