@@ -1,7 +1,17 @@
 ![logo](https://github.com/SteamWo1f/Optimized-Oasis/blob/1ba69b88ea0d6c8dbb80ab1579a1714b6fa1fd69/Optimized%20Oasis/Images/banner.png)
 
+<p align="center">
+  <a href="https://www.curseforge.com/minecraft/modpacks/optimized-oasis">
+    <img src="https://img.shields.io/badge/Download%20From-CurseForge-%23F16436">
+  </a>
+  <a href="https://github.com/SteamWo1f/Optimized-Oasis">
+    <img src="https://img.shields.io/badge/Download%20From-GitHub-%23171515">
+  </a>
+ <a href="https://modrinth.com/modpack/optimized-oasis">
+    <img src="https://img.shields.io/badge/Download%20From-Modrinth-%1AD96A">
+  </a>
+</p>
 
-# NOTE: THIS PROJECT HAS NOT BEEN RELEASED ON MODPACK PLATFORMS (I need sleep) THIS PROJECT WILL HOPEFULLY BE RELEASED BY MAR 1
 
 # Optimized Oasis 
 
