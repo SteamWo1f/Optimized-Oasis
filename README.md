@@ -22,7 +22,7 @@ Optimized Oasis is a lightweight Minecraft modpack that enhances your gameplay e
 - [About](#about)
 - [Installation](#installation)
 - [Credits](#credits)
-- [Mod List](https://github.com/SteamWo1f/Optimized-Oasis/edit/main/README.md#mod-list)
+- [Mod List](#mod-list)
 
 ## About
 
