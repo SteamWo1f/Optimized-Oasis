@@ -9,11 +9,6 @@ customization-meta {
 }
 
 customization {
-  name = normal
-  action = setbackgroundpanorama
-}
-
-customization {
   keepaspectratio = false
   action = backgroundoptions
 }
@@ -123,11 +118,11 @@ customization {
   case_mode = normal
   source_mode = direct
   line_spacing = 1
-  x = 0
-  width = 162
+  x = -2
+  width = 165
   action = custom_layout_element:fancymenu_customization_item_text
   actionid = 779f7280-77ba-40a8-bf4b-457ffee5cb961677547421276
-  y = 0
+  y = 1
   alignment = right
   height = 11
 }
