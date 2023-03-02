@@ -66,8 +66,70 @@ Optimized Oasis Modpack created by [SteamWolf](https://www.steamwolf.ml/)
 
 Icon background art by upklyak on [Freepik](https://www.freepik.com/free-vector/night-desert-oasis-full-moon-starry-sky_21133761.htm)
 
-Panorama map by [o00gareth00o](https://www.planetminecraft.com/project/desert-oasis-3107105/)
-
 Forge Install Tutorial by [Apex Hosting](https://apexminecrafthosting.com/modpacks-with-curseforge/)
 
 (this project is not sponsored)
+
+- - - - - -
+
+## Mod List:
+
+* [AppleSkin](https://www.curseforge.com/minecraft/mc-mods/appleskin)
+
+* [bad packets](https://www.curseforge.com/minecraft/mc-mods/badpackets)
+* [Better Compatibility Checker](https://www.curseforge.com/minecraft/mc-mods/better-compatibility-checker)
+* [BetterF3](https://www.curseforge.com/minecraft/mc-mods/betterf3)
+* [Better Ping Display](https://www.curseforge.com/minecraft/mc-mods/better-ping-display)
+* [Bookshelf](https://www.curseforge.com/minecraft/mc-mods/bookshelf)
+
+* [Canary](https://www.curseforge.com/minecraft/mc-mods/canary)
+* [Capes](https://www.curseforge.com/minecraft/mc-mods/capes)
+* [Catalogue](https://www.curseforge.com/minecraft/mc-mods/catalogue)
+* [Chat Heads](https://www.curseforge.com/minecraft/mc-mods/chat-heads)
+* [Chromatic](https://www.curseforge.com/minecraft/mc-mods/chromatic)
+* [Chunky](https://www.curseforge.com/minecraft/mc-mods/chunky-pregenerator-forge)
+* [Cloth Config API](https://www.curseforge.com/minecraft/mc-mods/cloth-config)
+* [Clumps](https://www.curseforge.com/minecraft/mc-mods/clumps)
+* [Configured](https://www.curseforge.com/minecraft/mc-mods/configured)
+* [Controllable](https://www.curseforge.com/minecraft/mc-mods/controllable)
+* [Controlling](https://www.curseforge.com/minecraft/mc-mods/controlling)
+* [Custom Window Title](https://www.curseforge.com/minecraft/mc-mods/custom-window-title)
+
+* [Effect Tooltips](https://www.curseforge.com/minecraft/mc-mods/effect-tooltips)
+* [Enchantment Descriptions](https://www.curseforge.com/minecraft/mc-mods/enchantment-descriptions)
+* [Entity Culling](https://www.curseforge.com/minecraft/mc-mods/entityculling)
+
+* [Fabric API](https://www.curseforge.com/minecraft/mc-mods/fabric-api)
+* [FancyMenu](https://www.curseforge.com/minecraft/mc-mods/fancymenu-forge)
+* [FerriteCore](https://www.curseforge.com/minecraft/mc-mods/ferritecore)
+
+* [GraphUtil](https://www.curseforge.com/minecraft/mc-mods/graphutil)
+
+* [Jade](https://www.curseforge.com/minecraft/mc-mods/jade)
+* [Just Enough Items (JEI)](https://www.curseforge.com/minecraft/mc-mods/jei)
+* [Just Enough Professions (JEP)](https://www.curseforge.com/minecraft/mc-mods/just-enough-professions-jep)
+* [Just Zoom](https://www.curseforge.com/minecraft/mc-mods/just-zoom-forge)
+
+* [Konkrete](https://www.curseforge.com/minecraft/mc-mods/konkrete)
+* [Kotlin](https://www.curseforge.com/minecraft/mc-mods/kotlin-for-forge)
+
+* [libIPN](https://www.curseforge.com/minecraft/mc-mods/libipn)
+
+* [Mini Effects](https://www.curseforge.com/minecraft/mc-mods/mini-effects)
+* [Mouse Tweaks](https://www.curseforge.com/minecraft/mc-mods/mouse-tweaks)
+
+* [No Chat Reports](https://www.curseforge.com/minecraft/mc-mods/no-chat-reports)
+* [Notes](https://www.curseforge.com/minecraft/mc-mods/notes)
+
+* [Radon](https://www.curseforge.com/minecraft/mc-mods/radon)
+* [Raised](https://www.curseforge.com/minecraft/mc-mods/raised)
+* [Rubidium](https://www.curseforge.com/minecraft/mc-mods/rubidium)
+* [Rubidium Extra](https://www.curseforge.com/minecraft/mc-mods/rubidium-extra)
+
+* [spark](https://www.curseforge.com/minecraft/mc-mods/spark)
+
+* [TexTrue's Rubidium Options](https://www.curseforge.com/minecraft/mc-mods/textrues-rubidium-options)
+* [Tips](https://www.curseforge.com/minecraft/mc-mods/tips)
+* [Tool Stats](https://www.curseforge.com/minecraft/mc-mods/tool-stats)
+
+* [Simple Voice Chat](https://www.curseforge.com/minecraft/mc-mods/simple-voice-chat)
