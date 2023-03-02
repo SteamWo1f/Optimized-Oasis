@@ -134,4 +134,3 @@ Forge Install Tutorial by [Apex Hosting](https://apexminecrafthosting.com/modpac
 * [Tool Stats](https://www.curseforge.com/minecraft/mc-mods/tool-stats)
 
 * [Simple Voice Chat](https://www.curseforge.com/minecraft/mc-mods/simple-voice-chat)
-
