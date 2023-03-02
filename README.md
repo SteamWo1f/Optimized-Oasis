@@ -7,9 +7,6 @@
   <a href="https://github.com/SteamWo1f/Optimized-Oasis/releases">
     <img src="https://img.shields.io/badge/Download%20From-GitHub-%23171515">
   </a>
- <a href="https://modrinth.com/modpack/optimized-oasis">
-    <img src="https://img.shields.io/badge/Download%20From-Modrinth-%1AD96A">
-  </a>
 </p>
 
 
