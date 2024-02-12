@@ -17,9 +17,9 @@ _____________________________________
 - [About](#about)
 - [Installation](#installation)
 - [Screenshots](#screenshots)
-- [Mod List](#mod-list)
+- [FAQ](#faq)
 - [Credits](#credits)
-
+- [Mod List](#mod-list)
 ## About
 
 Optimized Oasis is an open-source Minecraft modpack that primarily functions as a comprehensive enhancement to the base game. Initially developed with a focus on optimization, it has now evolved into a kitchen sink modpack, encompassing a wide variety of modifications.
@@ -76,6 +76,14 @@ This modpack offers a balance between performance optimization and gameplay enha
 |![TT](https://github.com/SteamWo1f/Optimized-Oasis/blob/main/Images/Screenshots/tall-towers.png?raw=true) |
 |Tall Towers|
 ###### *World gen created by the Tectonic and Terralith mods and shaders are the Complementary Reimagined shaders*
+
+## FAQ
+<details>
+<summary>Q: Why was the original repo made private?</summary>
+<br>
+A: The original repo wasn't lost; it was intentionally made private. This was done primarily to remove raw mod files, 
+among other reasons. However, this task presented difficulties, leading to the decision to recreate the repository instead.
+</details>
 
 ## Credits
 <p><a href="https://quiltmc.org/en/"><img src="https://raw.githubusercontent.com/QuiltMC/art/9c6b2a3efd9cd0b5790f0d40aeb5ed9e4e8b82d7/brand/svg/quilt_powered_dark.svg" style="height: 64px;"></a></p>
