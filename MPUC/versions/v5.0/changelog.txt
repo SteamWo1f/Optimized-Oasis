@@ -1,0 +1,10 @@
+
+Big Updates:
+- Modpack updated to 1.20.1
+
+Notable New mods:
+- [ChatAnimation](https://modrinth.com/mod/chatanimation)
+- [YDM's Weapon Master](https://modrinth.com/mod/weaponmaster)
+- [Command Block IDE](https://modrinth.com/mod/command-block-ide)
+
+I hope you enjoy this version

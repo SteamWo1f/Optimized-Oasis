@@ -1,0 +1,8 @@
+Optimized Oasis 5.2.1
+
+A small update.
+
+Minor Updates:
+  Updated Modpack update checker version from 5.1 -> 5.2.1
+
+Sorry for that unnecessary notification, enjoy.

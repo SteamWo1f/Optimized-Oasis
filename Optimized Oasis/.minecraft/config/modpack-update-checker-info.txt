@@ -1,0 +1,9 @@
+Optimized Oasis is a lightweight Minecraft modpack that enhances your gameplay experience without adding any new items.
+
+Remember to update your modpack.
+
+[Github Releases](https://github.com/SteamWo1f/Optimized-Oasis/releases/latest)
+
+[Modrinth Releases](https://modrinth.com/modpack/optimized-oasis/version/latest)
+
+🏜

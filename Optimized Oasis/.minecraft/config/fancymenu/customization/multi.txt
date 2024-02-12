@@ -1,0 +1,54 @@
+type = menu
+
+customization-meta {
+  identifier = net.minecraft.class_500
+  randomgroup = 1
+  renderorder = foreground
+  randommode = false
+  randomonlyfirsttime = false
+}
+
+customization {
+  keepaspectratio = false
+  action = backgroundoptions
+}
+
+customization {
+  identifier = %id=8546%
+  orientation = top-centered
+  x = 108
+  action = movebutton
+  y = 20
+}
+
+customization {
+  identifier = %id=8546%
+  width = 100
+  action = resizebutton
+  height = 24
+}
+
+customization {
+  identifier = %id=32636%
+  orientation = top-centered
+  x = -154
+  action = movebutton
+  y = 48
+}
+
+customization {
+  identifier = %id=43036%
+  orientation = top-centered
+  x = -50
+  action = movebutton
+  y = 48
+}
+
+customization {
+  identifier = %id=53436%
+  orientation = top-centered
+  x = 54
+  action = movebutton
+  y = 48
+}
+

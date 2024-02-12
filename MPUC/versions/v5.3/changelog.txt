@@ -1,0 +1,29 @@
+---
+**NOTICE: Mods have been removed in versions 3.5 to 5.3 due to licensing and other problems.**
+
+Removed mods:
+[betterfpsdistances](https://github.com/someaddons/betterfpsdistances)
+[cupboard](https://www.curseforge.com/minecraft/mc-mods/cupboard)
+[CustomSkinLoader](https://modrinth.com/mod/customskinloader)
+[Dungeons and Taverns](https://modrinth.com/datapack/dungeons-and-taverns)
+---
+
+Minor Updates:
+- Updated current mods and added new mods
+
+New Mods:
+[Concurrent Chunk Management Engine](https://modrinth.com/mod/c2me-fabric)
+[Cull Leaves](https://modrinth.com/mod/cull-leaves)
+[Methane](https://modrinth.com/mod/methane)
+[Not Enough Recipe Book](https://modrinth.com/mod/nerb)
+[Quilt Tag Plus](https://modrinth.com/mod/quilt-tag-plus)
+[Riding Mouse Fix](https://modrinth.com/mod/ridingmousefix)
+[Shut Up GL Error](https://modrinth.com/mod/shut-up-gl-error)
+[SmoothMenu Refabricated](https://modrinth.com/mod/smoothmenu-refabricated)
+[ThreadTweak](https://modrinth.com/mod/threadtweak)
+
+Removed Mods:
+[Starlight](https://modrinth.com/mod/starlight)
+[Essential](https://modrinth.com/mod/essential)
+[Cupboard](https://github.com/someaddons/cupboard)
+[Betterfpsdistances](https://github.com/someaddons/betterfpsdistances)

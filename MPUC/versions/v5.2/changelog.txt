@@ -1,0 +1,15 @@
+Optimized Oasis 5.2
+
+Not big but not a small update
+
+Minor Updates:
+  Updated current mods and added new mods
+
+New Mods:
+  Added [Modpack Update Checker](https://modrinth.com/mod/modpack-update-checker)
+  Added [Memory Leak Fix](https://modrinth.com/mod/memoryleakfix)
+  Added [Fog Looks Good Now](https://modrinth.com/mod/fog-looks-good-now-fabric)
+  Added [ClearDespawn](https://modrinth.com/mod/cleardespawn)
+  Added [Just Enough Breeding](https://modrinth.com/mod/justenoughbreeding)
+
+I finally added some mods that didn't work before, Enjoy this version

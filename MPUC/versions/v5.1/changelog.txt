@@ -1,0 +1,16 @@
+Optimized Oasis 5.1
+
+Major Fixes:
+  - Fixed Modrinth Pack Bug:
+    - Previously, when creating Modrinth packs using ATLauncher, I assigned the pack version as the "Optimized Oasis" version (e.g., 4.2, 5.0, etc) instead of the Minecraft version (e.g., 1.19.1, 1.19.2, etc). This caused launch issues. With this update, the problem has been resolved.
+
+Minor Fixes:
+  - Updated main title license screen text.
+
+Mod Updates and Additions:
+  - Updated and added [Yungs' mods](https://modrinth.com/user/YUNGNICKYOUNG).
+  - Updated [Xaeros Minimap](https://modrinth.com/mod/xaeros-minimap).
+  - Updated [Terralith](https://modrinth.com/mod/terralith).
+  - Added [Server Pinger Fixer](https://modrinth.com/mod/serverpingerfixer).
+
+Please enjoy this new version, That finally works!

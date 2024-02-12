@@ -1,0 +1,90 @@
+Optimized Oasis 4.0 "Endless Sea"
+
+Hello there! This update brings exciting new mods, some removals, and a fresh UI look. I'm excited to present the latest version of Optimized Oasis, and I'm sure you'll have a fun time exploring it.
+
+
+Revamped User Interface:
+ I've given the main title screen a fresh makeover:
+
+ [Main Title Screen](https://github.com/SteamWo1f/Optimized-Oasis/blob/main/Images/Main-Title-Screen.png?raw=true)
+
+ Additionally, I've introduced a personalized loading screen:
+
+ [Loading Screen](https://github.com/SteamWo1f/Optimized-Oasis/blob/main/Images/Loading-Screen.png?raw=true)
+
+
+New Mods and Farewells (though this might not cover everything)
+
+Added:
+
+- [Achievable](https://modrinth.com/mod/achievable)
+- [Better "Add Server"](https://modrinth.com/mod/betteraddserver)
+- [BlameLog](https://modrinth.com/mod/blame-log)
+- [Chat Sounds](https://modrinth.com/mod/chatsounds)
+- [ChatWalk](https://modrinth.com/mod/chatwalk)
+- [Clean Tooltips](https://modrinth.com/mod/clean-tooltips)
+- [Custom lan](https://modrinth.com/mod/custom-lan)
+- [DaFlight Fabric](https://modrinth.com/mod/daflight-fabric)
+- [Ding](https://modrinth.com/mod/ding)
+- [Draggable Lists](https://modrinth.com/mod/draggable-lists)
+- [Drippy Loading Screen](https://modrinth.com/mod/drippy-loading-screen)
+- [Durability Plus](https://modrinth.com/mod/durability-plus)
+- [ESSENTIAL Mod](https://modrinth.com/mod/essential)
+- [Emogg](https://modrinth.com/mod/emogg)
+- [Enhanced Block Entities](https://modrinth.com/mod/ebe)
+- [Enhanced Searchability](https://modrinth.com/mod/enhanced-searchability)
+- [FastAnim](https://modrinth.com/mod/fastanim)
+- [Fuel info](https://modrinth.com/mod/fuel-info)
+- [Gatekeep](https://modrinth.com/mod/gatekeep)
+- [Global packs](https://modrinth.com/mod/globalpacks)
+- [Hold That Chunk](https://modrinth.com/mod/hold-that-chunk)
+- [ImmediatelyFast](https://modrinth.com/mod/immediatelyfast)
+- [ImmersiveThunder](https://modrinth.com/mod/immersivethunder)
+- [Just Enough Effect Descriptions (JEED)](https://modrinth.com/mod/just-enough-effect-descriptions-jeed)
+- [Leave My Bars Alone](https://modrinth.com/mod/leave-my-bars-alone)
+- [LibJF](https://modrinth.com/mod/libjf)
+- [Memory Usage Screen](https://modrinth.com/mod/memory-usage-screen)
+- [ModernFix](https://modrinth.com/mod/modernfix)
+- [Music Notification](https://modrinth.com/mod/music-notification)
+- [Name Pain](https://modrinth.com/mod/name-pain)
+- [Noxesium](https://modrinth.com/mod/noxesium)
+- [Refined Advancements](https://modrinth.com/datapack/refined-advancements)
+- [Reimagined World Menu](https://modrinth.com/mod/reimagined-world-menu)
+- [Repeater Sound](https://modrinth.com/mod/repeater-sound)
+- [Resource Reload (F3+T) Everywhere](https://modrinth.com/mod/f3-t-everywhere)
+- [Resourcify](https://modrinth.com/mod/resourcify)
+- [Restore Chat Links](https://modrinth.com/mod/restore-chat-links)
+- [ScreenshotSettings](https://modrinth.com/mod/screenshotsettings)
+- [Seamless](https://modrinth.com/mod/seamless)
+- [Server Country Flags](https://modrinth.com/mod/server-country-flags)
+- [Server Resourcepack Checker](https://modrinth.com/mod/server-resource-pack-checker)
+- [Simple Fog Control](https://modrinth.com/mod/simplefog)
+- [Skip Server Resource Packs](https://modrinth.com/mod/skip-server-resource-packs)
+- [Sorted Enchantments](https://modrinth.com/mod/sorted-enchantments)
+- [Staaaaaaaaaaaack (Stxck)](https://modrinth.com/mod/staaaaaaaaaaaack)
+- [TalkBubbles](https://modrinth.com/mod/talkbubbles)
+- [Tectonic](https://modrinth.com/datapack/tectonic)
+- [VanillaIcecreamFix](https://modrinth.com/mod/vanillaicecreamfix)
+- [Video tape](https://modrinth.com/mod/videotape)
+
+
+Removed:
+
+- [Better Tag Tips](https://www.curseforge.com/minecraft/mc-mods/better-tips)
+- [Concurrent Chunk Management Engine](https://modrinth.com/mod/c2me-fabric)
+- [Craftify](https://modrinth.com/mod/craftify)
+- [Cristel Lib](https://modrinth.com/mod/cristel-lib)
+- [Dark Loading Screen](https://modrinth.com/mod/dark-loading-screen)
+- [Fabric Chunk Pregenerator](https://modrinth.com/mod/fabricquilt-chunk-pregenerator)
+- [ItemPhysic Lite](https://modrinth.com/mod/itemphysic-lite)
+- [Mo' Structures](https://modrinth.com/mod/mo-structures)
+- [PlayerNameTweaks](https://www.curseforge.com/minecraft/mc-mods/player-name-tweaks)
+- [Red’s More Structures](https://modrinth.com/datapack/reds-more-structures)
+- [Repurposed Structures](https://modrinth.com/mod/repurposed-structures-fabric)
+- [Show me your skin](https://modrinth.com/mod/show-me-your-skin)
+- [Shulker Box Tooltip](https://modrinth.com/mod/shulkerboxtooltip)
+- [Skyblock Creator](https://modrinth.com/mod/skyblock-creator)
+- [Towns and Towers](https://modrinth.com/mod/towns-and-towers)
+- [JTorLeon Mods](https://legacy.curseforge.com/members/JTorLeon_Studios/projects)
+
+(Note: If there are any problems with licenses, mods, etc.. please contact me at: [optimized.oasis.modpack.help@gmail.com](mailto:optimized.oasis.modpack.help@gmail.com))

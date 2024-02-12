@@ -1,0 +1,28 @@
+Minor Updates:
+
+- Updated current mods and added new mods
+
+New Mods:
+
+[What Are They Up To (Watut)](https://modrinth.com/mod/what-are-they-up-to)
+[CoroUtil](https://modrinth.com/mod/coroutil)
+[XaeroPlus](https://modrinth.com/mod/xaeroplus)
+[Bedrodium](https://modrinth.com/mod/bedrodium)
+[fast-ip-ping](https://modrinth.com/mod/fast-ip-ping)
+[Remove Reloading Screen](https://modrinth.com/mod/rrls)
+[BadOptimizations](https://modrinth.com/mod/badoptimizations)
+[Remove Terralith Intro Message](https://modrinth.com/datapack/remove-terralith-intro-message)
+[Custom Biome Saplings](https://modrinth.com/datapack/terralith-biome-saplings)
+[True Ending: Ender Dragon Overhaul](https://modrinth.com/datapack/true-ending)
+[HitBox+](https://modrinth.com/mod/hitboxplus)
+
+Replaced Mods:
+
+[Sorted Enchants](https://modrinth.com/mod/sorted-enchants) with [Sorted Enchantments](https://modrinth.com/mod/sorted-enchantments)
+[Better Ping Display [Fabric]](https://modrinth.com/mod/better-ping-display-fabric) with [Numeral Ping](https://modrinth.com/mod/numeral-ping)
+
+Removed Mods:
+
+[Barista](https://modrinth.com/mod/barista)
+[Immersive Structures II: Nether edition](https://modrinth.com/datapack/immersive-structures-ii)
+[Vanilla Friendly Structures](https://modrinth.com/datapack/vanilla-friendly-structures)

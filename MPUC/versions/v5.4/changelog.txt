@@ -1,0 +1,16 @@
+**Minor Updates**:
+
+- Reformated main menu text
+
+- Updated current mods and added new mods
+
+New Mods:
+[Architectury API](https://modrinth.com/mod/architectury-api)
+[Better Recipe Book](https://modrinth.com/mod/brb)
+[Recipe Book is Pain](https://modrinth.com/mod/rbip)
+[Visuality](https://modrinth.com/mod/visuality)
+
+Removed Mods:
+[LambdaBetterGrass](https://modrinth.com/mod/lambdabettergrass)
+[Not Enough Crashes](https://modrinth.com/mod/notenoughcrashes)
+[Not Enough Recipe Book [NERB]](https://modrinth.com/mod/nerb)
