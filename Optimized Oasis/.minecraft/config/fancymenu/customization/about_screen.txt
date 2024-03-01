@@ -3,18 +3,18 @@ type = fancymenu_layout
 layout-meta {
   identifier = about_screen
   render_custom_elements_behind_vanilla = false
-  last_edited_time = 1707110013314
+  last_edited_time = 1709270988977
   is_enabled = true
   randommode = false
   randomgroup = 1
   randomonlyfirsttime = false
   layout_index = 0
   custom_menu_title = About Optimized Oasis
-  [loading_requirement_container_meta:12be797c-61ef-4be5-83e9-22254a0aec79-1707109953141] = [groups:][instances:]
+  [loading_requirement_container_meta:f431a721-d94d-47b5-9248-15df9e7ab810-1709270979943] = [groups:][instances:]
 }
 
 menu_background {
-  panorama_name = normal
+  panorama_name = blur
   background_type = panorama
 }
 
@@ -28,30 +28,16 @@ scroll_list_customization {
   render_scroll_list_header_shadow = true
   render_scroll_list_footer_shadow = true
   show_scroll_list_header_footer_preview_in_editor = false
-}
-
-element {
-  source = [source:local]/config/fancymenu/assets/asbg.png
-  element_type = image
-  instance_identifier = 2d4e985e-64aa-4ebc-9011-afec7974a55b-1707108625627
-  appearance_delay = no_delay
-  appearance_delay_seconds = 1.0
-  fade_in = false
-  fade_in_speed = 1.0
-  anchor_point = mid-centered
-  x = -532
-  y = -185
-  width = 1017
-  height = 370
-  stretch_x = false
-  stretch_y = false
-  stay_on_screen = false
-  element_loading_requirement_container_identifier = 5d782038-2d0a-406b-b774-e3530d40029e-1707108625627
-  [loading_requirement_container_meta:5d782038-2d0a-406b-b774-e3530d40029e-1707108625627] = [groups:][instances:]
+  repeat_scroll_list_header_texture = false
+  repeat_scroll_list_footer_texture = false
 }
 
 element {
   source = [source:local]/config/fancymenu/assets/logo.png
+  repeat_texture = false
+  nine_slice_texture = false
+  nine_slice_texture_border_x = 5
+  nine_slice_texture_border_y = 5
   element_type = image
   instance_identifier = 42c09ab4-d213-4502-b0f2-f40772db50aa-1707107223101
   appearance_delay = no_delay
@@ -60,7 +46,7 @@ element {
   fade_in_speed = 1.0
   anchor_point = mid-centered
   x = -143
-  y = -165
+  y = -210
   width = 287
   height = 75
   stretch_x = false
@@ -102,7 +88,7 @@ element {
   fade_in_speed = 1.0
   anchor_point = mid-centered
   x = -225
-  y = -79
+  y = -125
   width = 451
   height = 230
   stretch_x = false
@@ -113,54 +99,16 @@ element {
 }
 
 element {
-  shape = rectangle
-  color = #212121
-  element_type = shape
-  instance_identifier = ccf6c58d-f370-4ea8-80e6-9ecb616c16b0-1707109094699
-  appearance_delay = no_delay
-  appearance_delay_seconds = 1.0
-  fade_in = false
-  fade_in_speed = 1.0
-  anchor_point = bottom-centered
-  x = -482
-  y = -85
-  width = 965
-  height = 85
-  stretch_x = false
-  stretch_y = false
-  stay_on_screen = false
-  element_loading_requirement_container_identifier = 47b19039-42ec-414c-a907-8308d7e8a1e4-1707109094699
-  [loading_requirement_container_meta:47b19039-42ec-414c-a907-8308d7e8a1e4-1707109094699] = [groups:][instances:]
-}
-
-element {
-  shape = rectangle
-  color = #212121
-  element_type = shape
-  instance_identifier = 8e879313-314d-470e-8235-260bfb510892-1707109367162
-  appearance_delay = no_delay
-  appearance_delay_seconds = 1.0
-  fade_in = false
-  fade_in_speed = 1.0
-  anchor_point = top-centered
-  x = -482
-  y = 0
-  width = 965
-  height = 85
-  stretch_x = false
-  stretch_y = false
-  stay_on_screen = false
-  element_loading_requirement_container_identifier = 47b19039-42ec-414c-a907-8308d7e8a1e4-1707109094699
-  [loading_requirement_container_meta:47b19039-42ec-414c-a907-8308d7e8a1e4-1707109094699] = [groups:][instances:]
-}
-
-element {
   button_element_executable_block_identifier = 68f6fa69-0e32-411f-9445-be2e7f789232-1707109455925
   [executable_action_instance:24ccff4f-a13a-4f2f-903c-62656ddebe16-1707109725525][action_type:openlink] = https://discord.gg/ZXabV5xMa2
   [executable_block:68f6fa69-0e32-411f-9445-be2e7f789232-1707109455925][type:generic] = [executables:24ccff4f-a13a-4f2f-903c-62656ddebe16-1707109725525;]
   restartbackgroundanimations = true
   loopbackgroundanimations = true
+  nine_slice_custom_background = false
+  nine_slice_border_x = 5
+  nine_slice_border_y = 5
   label = Discord
+  navigatable = true
   element_type = custom_button
   instance_identifier = 2e0d7228-7c63-4cef-9ec0-004b4afe3bc1-1707109455925
   appearance_delay = no_delay
@@ -169,7 +117,7 @@ element {
   fade_in_speed = 1.0
   anchor_point = bottom-centered
   x = -115
-  y = -43
+  y = -100
   width = 100
   height = 20
   stretch_x = false
@@ -185,7 +133,11 @@ element {
   [executable_block:68f6fa69-0e32-411f-9445-be2e7f789232-1707109455925][type:generic] = [executables:08b747c1-1aaf-45e1-9bf5-466bbab17c73-1707109689381;]
   restartbackgroundanimations = true
   loopbackgroundanimations = true
+  nine_slice_custom_background = false
+  nine_slice_border_x = 5
+  nine_slice_border_y = 5
   label = Website
+  navigatable = true
   element_type = custom_button
   instance_identifier = c48f18cc-382e-40a1-a910-5fcde05943dd-1707109499823
   appearance_delay = no_delay
@@ -194,7 +146,7 @@ element {
   fade_in_speed = 1.0
   anchor_point = bottom-centered
   x = 15
-  y = -43
+  y = -100
   width = 100
   height = 20
   stretch_x = false
@@ -210,7 +162,11 @@ element {
   [executable_block:68f6fa69-0e32-411f-9445-be2e7f789232-1707109455925][type:generic] = [executables:cab596c4-8ef3-4ef4-8103-447df3f48656-1707109752906;]
   restartbackgroundanimations = true
   loopbackgroundanimations = true
+  nine_slice_custom_background = false
+  nine_slice_border_x = 5
+  nine_slice_border_y = 5
   label = Github
+  navigatable = true
   element_type = custom_button
   instance_identifier = f8149235-670e-4ee4-90d9-20da1333fb78-1707109542133
   appearance_delay = no_delay
@@ -219,7 +175,7 @@ element {
   fade_in_speed = 1.0
   anchor_point = bottom-centered
   x = 15
-  y = -75
+  y = -140
   width = 100
   height = 20
   stretch_x = false
@@ -235,7 +191,11 @@ element {
   [executable_block:68f6fa69-0e32-411f-9445-be2e7f789232-1707109455925][type:generic] = [executables:bea3cd02-bddd-4c3e-8fab-6ae9c84e6ade-1707109773955;]
   restartbackgroundanimations = true
   loopbackgroundanimations = true
+  nine_slice_custom_background = false
+  nine_slice_border_x = 5
+  nine_slice_border_y = 5
   label = Modrinth
+  navigatable = true
   element_type = custom_button
   instance_identifier = a42563e2-2922-496c-be8d-25e4df9af8b8-1707109550277
   appearance_delay = no_delay
@@ -244,7 +204,7 @@ element {
   fade_in_speed = 1.0
   anchor_point = bottom-centered
   x = -115
-  y = -75
+  y = -140
   width = 100
   height = 20
   stretch_x = false
@@ -260,7 +220,11 @@ element {
   [executable_block:68f6fa69-0e32-411f-9445-be2e7f789232-1707109455925][type:generic] = [executables:215f1b51-b07a-422b-a96f-06c2b5a755c7-1707109602252;]
   restartbackgroundanimations = true
   loopbackgroundanimations = true
+  nine_slice_custom_background = false
+  nine_slice_border_x = 5
+  nine_slice_border_y = 5
   label = Exit
+  navigatable = true
   element_type = custom_button
   instance_identifier = 5ae9736f-014e-4fbc-b024-e6f24ad897af-1707109581084
   appearance_delay = no_delay
@@ -268,8 +232,8 @@ element {
   fade_in = false
   fade_in_speed = 1.0
   anchor_point = bottom-centered
-  x = -525
-  y = -545
+  x = -50
+  y = -60
   width = 100
   height = 20
   stretch_x = false
@@ -311,7 +275,7 @@ element {
   fade_in_speed = 1.0
   anchor_point = bottom-centered
   x = -105
-  y = -17
+  y = -27
   width = 211
   height = 17
   stretch_x = false

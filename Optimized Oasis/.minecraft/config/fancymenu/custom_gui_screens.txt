@@ -5,7 +5,10 @@ overridden_screens {
 
 custom_gui {
   identifier = about_screen
-  title = about_screen
+  title = 
   allow_esc = true
+  transparent_world_background = true
+  transparent_world_background_overlay = true
+  pause_game = true
 }
 
