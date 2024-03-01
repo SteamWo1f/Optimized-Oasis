@@ -79,9 +79,9 @@ This modpack offers a balance between performance optimization and gameplay enha
 
 ## FAQ
 <details>
-<summary>Q: Why was the original repo made private?</summary>
+<summary>Q: Why was the original privatized?</summary>
 <br>
-A: The original repo wasn't lost; it was intentionally made private. This was done primarily to remove raw mod files, 
+A: This was done primarily to remove raw mod files, 
 among other reasons. However, this task presented difficulties, leading to the decision to recreate the repository instead.
 </details>
 

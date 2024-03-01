@@ -1,15 +1,16 @@
 {
-  "schemaVersion": 5,
+  "schemaVersion": 7,
   "currentVersion": "v5.5",
   "modpackName": "Optimized Oasis",
   "modpackAuthor": "SteamWolf",
   "modpackReleaseType": "stable",
-  "githubRepo": "https://raw.githubusercontent.com/SteamWo1f/Optimized-Oasis/main/MPUC/",
+  "updateCheckerId": "https://raw.githubusercontent.com/SteamWo1f/Optimized-Oasis/main/MPUC/",
   "advanced": {
     "bccEnabled": false,
     "expandButton": false,
     "updateCheckerType": 2,
-    "showAllChangelogsIfUpToDate": true,
+    "addButton": false,
+    "mainMenuCreditsIntegration": false,
     "modpackMods": []
   }
 }
