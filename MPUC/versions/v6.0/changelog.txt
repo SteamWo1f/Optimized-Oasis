@@ -1,0 +1,60 @@
+# Optimized Oasis 6.0 "Crystallized Camel"
+
+Hello, it's been awhile but I'm back with a new update that I think all of you would enjoy,
+Also we passed **300** downloads on Modrinth (333 at time of writing) and I can't thank you all enough for the support, and with that I bid adieu and hope you all enjoy Optimized Oasis 6.0.
+
+### Config Changes:
+- New "About" screen
+- New loading bar
+- Redone Panoramas & Backgrounds
+- Added more default config files
+
+### New & Removed Mods:
+#### New Mods:
+- [Bee Dance](https://modrinth.com/mod/bee-dance)
+- [Better Pie Chart](https://modrinth.com/mod/better-pie-chart)
+- [Blanket](https://modrinth.com/mod/blanket)
+- [Bobby](https://modrinth.com/mod/bobby)
+- [Continue Button](https://modrinth.com/mod/continue)
+- [Custom Window Title](https://modrinth.com/mod/custom-window-title)
+- [Effective](https://modrinth.com/mod/effective)
+- [Faster Random](https://modrinth.com/mod/faster-random)
+- [Fast Paintings](https://modrinth.com/mod/fast-paintings)
+- [Icterine](https://modrinth.com/mod/icterine)
+- [Let Sleeping Dogs Lie](https://modrinth.com/mod/let-sleeping-dogs-lie)
+- [MES - Moog's End Structures](https://modrinth.com/mod/mes-moogs-end-structures)
+- [MNS - Moog's Nether Structures](https://modrinth.com/mod/mns-moogs-nether-structures)
+- [MVS - Moog's Voyager Structures](https://modrinth.com/mod/moogs-voyager-structures)
+- [Not Just Biomes](https://modrinth.com/mod/not-just-biomes)
+- [Particle Blocker](https://modrinth.com/mod/particles)
+- [Particle Tweaks](https://modrinth.com/mod/particle-tweaks)
+- [Remember LAN Port](https://modrinth.com/mod/remember-lan-port)
+- [Seamless Loading Screen](https://modrinth.com/mod/seamless-loading-screen)
+- [ServerAddressSpaceFix](https://modrinth.com/mod/serveraddressspacefix)
+- [Snow Under Trees](https://modrinth.com/mod/snow-under-trees-remastered)
+- [Sounds Be Gone!](https://modrinth.com/mod/soundsbegone)
+- [Sounds](https://modrinth.com/mod/sound)
+- [Sparse Structures](https://modrinth.com/mod/sparsestructures)
+- [Stonecutter GUI Remastered](https://modrinth.com/mod/stonecutter-gui-remastered)
+- [The Lost Castle](https://modrinth.com/mod/the-lost-castle)
+- [Title Fixer](https://modrinth.com/mod/title-fixer)
+- [WayGL](https://modrinth.com/mod/waygl)
+#### Removed:
+- [Better Add Server](https://modrinth.com/mod/betteraddserver)
+- [Better Third Person](https://modrinth.com/mod/better-third-person)
+- [Clean Tooltips](https://modrinth.com/mod/clean-tooltips)
+- [CoroUtil](https://modrinth.com/mod/coroutil)
+- [Death Finder](https://modrinth.com/mod/death-finder)
+- [Debugify](https://modrinth.com/mod/debugify)
+- [Disable Compliance Notification](https://modrinth.com/mod/disable-compliance-notification)
+- [FPS-Display](https://modrinth.com/mod/fpsdisplay)
+- [Hopo Better Mods](https://modrinth.com/user/Ohponopono)
+- [Just Enough Resources](https://modrinth.com/mod/just-enough-resources-jer)
+- [Music Notification](https://modrinth.com/mod/music-notification)
+- [Remove Reloading Screen](https://modrinth.com/mod/rrls)
+- [Runelic](https://modrinth.com/mod/runelic)
+- [What Are They Up To](https://modrinth.com/mod/what-are-they-up-to)
+### Other:
+Optimized Oasis now has a [Discord server](https://discord.gg/ZXabV5xMa2) if you have any questions this is probably the best place for me to answer them.
+
+Thank you for reading, I hope you enjoy this new version.
