@@ -1,5 +1,6 @@
 [Modrinth Download](https://modrinth.com/modpack/optimized-oasis/version/6.0)
 [GitHub Download](https://github.com/SteamWo1f/Optimized-Oasis/releases/tag/v6.0)
+
 Optimized Oasis 6.0 "Crystallized Camel"
 
 Hello, it's been awhile but I'm back with a new update that I think all of you would enjoy,
