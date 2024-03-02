@@ -1,16 +1,18 @@
-# Optimized Oasis 6.0 "Crystallized Camel"
+[Modrinth Download](https://modrinth.com/modpack/optimized-oasis/version/6.0)
+[GitHub Download](https://github.com/SteamWo1f/Optimized-Oasis/releases/tag/v6.0)
+Optimized Oasis 6.0 "Crystallized Camel"
 
 Hello, it's been awhile but I'm back with a new update that I think all of you would enjoy,
 Also we passed **300** downloads on Modrinth (333 at time of writing) and I can't thank you all enough for the support, and with that I bid adieu and hope you all enjoy Optimized Oasis 6.0.
 
-### Config Changes:
+Config Changes:
 - New "About" screen
 - New loading bar
 - Redone Panoramas & Backgrounds
 - Added more default config files
 
-### New & Removed Mods:
-#### New Mods:
+New & Removed Mods:
+ New Mods:
 - [AdaptiveView](https://modrinth.com/mod/adaptiveview)
 - [Alternate Current](https://modrinth.com/mod/alternate-current)
 - [Amplified Nether](https://modrinth.com/mod/amplified-nether)
@@ -50,7 +52,7 @@ Also we passed **300** downloads on Modrinth (333 at time of writing) and I can'
 - [The Lost Castle](https://modrinth.com/mod/the-lost-castle)
 - [Title Fixer](https://modrinth.com/mod/title-fixer)
 - [WayGL](https://modrinth.com/mod/waygl)
-#### Removed:
+ Removed:
 - [Better Add Server](https://modrinth.com/mod/betteraddserver)
 - [Better Third Person](https://modrinth.com/mod/better-third-person)
 - [Clean Tooltips](https://modrinth.com/mod/clean-tooltips)
@@ -65,7 +67,8 @@ Also we passed **300** downloads on Modrinth (333 at time of writing) and I can'
 - [Remove Reloading Screen](https://modrinth.com/mod/rrls)
 - [Runelic](https://modrinth.com/mod/runelic)
 - [What Are They Up To](https://modrinth.com/mod/what-are-they-up-to)
-### Other:
+
+Other:
 Optimized Oasis now has a [Discord server](https://discord.gg/ZXabV5xMa2) if you have any questions this is probably the best place for me to answer them.
 
 Thank you for reading, I hope you enjoy this new version.
