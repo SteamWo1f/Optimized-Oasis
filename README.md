@@ -79,7 +79,7 @@ This modpack offers a balance between performance optimization and gameplay enha
 
 ## FAQ
 <details>
-<summary>Q: Why was the original privatized?</summary>
+<summary>Q: Why was the original repository privatized?</summary>
 <br>
 A: This was done primarily to remove raw mod files, 
 among other reasons. However, this task presented difficulties, leading to the decision to recreate the repository instead.
