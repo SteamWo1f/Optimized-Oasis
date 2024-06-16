@@ -1,7 +1,7 @@
 ![logo](https://github.com/SteamWo1f/Optimized-Oasis/blob/main/Images/banner.png?raw=true)
 _____________________________________
 <p align="center"><a href="https://github.com/SteamWo1f/Optimized-Oasis/releases"><img src="https://cdn.jsdelivr.net/npm/@intergrav/devins-badges@3.1.0/assets/cozy/available/github_64h.png"></a>   <a href="https://steamwo1f.github.io/OOS/"><img src="https://raw.githubusercontent.com/intergrav/devins-badges/v3/assets/cozy/documentation/website_64h.png"></a>   <a href="https://modrinth.com/modpack/optimized-oasis"><img src="https://cdn.jsdelivr.net/npm/@intergrav/devins-badges@3.1.0/assets/cozy/available/modrinth_64h.png"></a></p>
-
+<p align="center"><img src="https://img.shields.io/modrinth/dt/5cPQqIcC?labelColor=%23290D5C&color=%23030026">   <img src="https://img.shields.io/modrinth/v/5cPQqIcC?labelColor=%23290D5C&color=%23030026">   <img src="https://img.shields.io/modrinth/game-versions/5cPQqIcC?labelColor=%23290D5C&color=%23030026"></p>
 
 
 <h1 align="center">Optimized Oasis</h1>
