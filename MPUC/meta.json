@@ -66,6 +66,11 @@
         "id": "v6.0",
         "updateType": "major",
         "releasedAt": 1709339916
+      },
+      {
+        "id": "v6.1",
+        "updateType": "major",
+        "releasedAt": 1718514590
       }
     ]
   }

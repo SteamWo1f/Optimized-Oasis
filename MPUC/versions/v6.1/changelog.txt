@@ -1,0 +1,40 @@
+Heyo, I'm back sooner then I thought and I'm here to bring a pretty big update:
+
+***Updated all mods to current stable versions!***
+Yeah! I'm am very happy to say that most mods in Optimized Oasis have now been updated to their latest version as of me writing this changelog. And with this I ask that you *please update your modpack version*.
+
+Along with that there has been some mod changes as well:
+
+New Mods:
+- [Fast Backups](https://modrinth.com/mod/fastback)
+- [Embeddium](https://modrinth.com/mod/embeddium)
+- [EMI](https://modrinth.com/mod/emi)
+- [EMI Trades](https://modrinth.com/mod/emitrades)
+- [EMI Loot](https://modrinth.com/mod/emi-loot)
+- [EMIffect](https://modrinth.com/mod/emiffect)
+- [EMI Enchanting](https://modrinth.com/mod/emi-enchanting)
+- [EMI Ores](https://modrinth.com/mod/emi-ores)
+- [Tooltips+](https://modrinth.com/mod/tooltipsplus)
+- [Centered Crosshair](https://modrinth.com/mod/centered-crosshair)
+- [Let Me Despawn](https://modrinth.com/plugin/lmd)
+- [Leaves Be Gone](https://modrinth.com/mod/leaves-be-gone)
+
+Removed
+- [Sodium](https://modrinth.com/mod/sodium) (Replaced with [Embeddium](https://modrinth.com/mod/embeddium))
+- [Indium](https://modrinth.com/mod/indium) (Replaced with [Embeddium](https://modrinth.com/mod/embeddium))
+- [Reese's Sodium Options](https://modrinth.com/mod/reeses-sodium-options) (Replaced with [Embeddium](https://modrinth.com/mod/embeddium))
+- [JEI](https://modrinth.com/mod/u6dRKJwZ) (Replaced with [EMI](https://modrinth.com/mod/emi))
+- [U Team Core](https://modrinth.com/mod/u-team-core)
+- [Subjectively Better Enchantment Tooltips](https://modrinth.com/mod/LTFmkF0X) (Replaced with [Tooltips+](https://modrinth.com/mod/tooltipsplus))
+- [Architectury](https://modrinth.com/mod/architectury-api)
+- [Better Recipe Book](https://modrinth.com/mod/brb)
+- [Just Enough Painting Previews](https://www.curseforge.com/projects/546740)
+- [Just Enough Professions (JEP)](https://modrinth.com/mod/just-enough-professions-jep)
+- [Just Enough Effects Descriptions](https://modrinth.com/mod/EO27GKs1)
+- [WayGL](https://modrinth.com/mod/waygl)
+- [Item Borders](https://modrinth.com/mod/b1fMg6sH)
+
+That's all for the modpack but I also want to say that I did a full color revamp to the [Official Optimized Oasis Website](https://steamwo1f.github.io/OOS/), 
+I'm still working on it since mobile support isn't all there yet but I am pretty proud of how it looks at this moment.
+
+Well that's all for today, I hope y'all enjoy this update and have fun exploring the sands.
