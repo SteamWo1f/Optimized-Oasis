@@ -28,8 +28,6 @@ This modpack is designed with the main aim of enhancing the game's performance a
 
 ## Installation
 
-### For .mrpack (Modrinth)
-
 #### Using the Modrinth App
 1. Download the `.mrpack` file from Modrinth.
 2. In the Modrinth app, click on "Browse" and find the modpack.
