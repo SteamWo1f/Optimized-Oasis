@@ -26,9 +26,6 @@ Optimized Oasis is an open-source Minecraft modpack that primarily functions as 
 
 This modpack is designed with the main aim of enhancing the game's performance and introducing quality of life features, making the gameplay experience smoother and more enjoyable. Despite these modifications, the gameplay remains largely familiar to the vanilla Minecraft experience, with the addition of new features and improvements that do not make the game feel drastically different.
 
-This modpack offers a balance between performance optimization and gameplay enhancement, providing both a smoother experience and a richer, more diverse Minecraft world to explore.
-
-
 ## Installation
 
 ### For .mrpack (Modrinth)
