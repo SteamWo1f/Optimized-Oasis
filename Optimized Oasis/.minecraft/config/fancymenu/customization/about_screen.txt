@@ -58,7 +58,7 @@ element {
 
 element {
   interactable = true
-  source = ## About%n%%n%Optimized Oasis is a lightweight Minecraft modpack that enhances your gameplay experience without adding any new items.%n%%n%## Credits%n%%n%%n%- Optimized Oasis Modpack created by [SteamWolf](https://steamwolf.vercel.app/)%n%- Panormana World by [o00gareth00o](https://www.planetminecraft.com/member/o00gareth00o/)%n%- Icon background art by upklyak on [Freepik](https://www.freepik.com/free-vector/night-desert-oasis-full-moon-starry-sky_21133761.htm)%n%- Badges from [devins-badges](https://github.com/intergrav/devins-badges/tree/v3)%n%- Powered by [Quilt Loader](https://quiltmc.org)%n%%n%*This project is not sponsored.*%n%%n%*If there are any problems with licenses, mods, etc., please contact me at: [optimized.oasis.modpack.help@gmail.com](mailto:optimized.oasis.modpack.help@gmail.com)*%n%
+  source = ## About%n%%n%Optimized Oasis is a lightweight-ish Minecraft modpack that enhances your gameplay experience without adding any new items.%n%%n%## Credits%n%%n%%n%- Optimized Oasis Modpack created by [SteamWolf](https://steamwolf.vercel.app/)%n%- Panormana World by [o00gareth00o](https://www.planetminecraft.com/member/o00gareth00o/)%n%- Icon background art by upklyak on [Freepik](https://www.freepik.com/free-vector/night-desert-oasis-full-moon-starry-sky_21133761.htm)%n%- Badges from [devins-badges](https://github.com/intergrav/devins-badges/tree/v3)%n%- Powered by [Quilt Loader](https://quiltmc.org)%n%%n%*This project is not sponsored.*%n%%n%*If there are any problems with licenses, mods, etc., please contact me at: [optimized.oasis.modpack.help@gmail.com](mailto:optimized.oasis.modpack.help@gmail.com)*%n%
   source_mode = direct
   shadow = false
   scale = 1.0
