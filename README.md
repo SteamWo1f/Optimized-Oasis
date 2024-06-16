@@ -45,17 +45,6 @@ This modpack is designed with the main aim of enhancing the game's performance a
 2. Select Modrinth on the left and search for your pack.
 3. Click "Play" or use "Add Manually" for direct IDs, slugs, or URLs.
 
-### For .zip (ATLauncher/Prism Launcher)
-
-#### Using Prism Launcher
-1. Select "Add Instance" and then "Import from zip".
-2. Provide the `.zip` archive of the modpack.
-
-#### Using ATLauncher
-1. Go to the "Instances" tab and click "Import".
-2. Select the `.zip` file of your modpack.
-
-
 ## Screenshots
 #### Screenshots taken inside the modpack with the [Complementary Reimagined](https://modrinth.com/shader/complementary-reimagined) shaderpack
 |  Screenshots |
