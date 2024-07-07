@@ -1,6 +1,6 @@
 ![logo](https://github.com/SteamWo1f/Optimized-Oasis/blob/main/Images/banner.png?raw=true)
 _____________________________________
-<p align="center"><a href="https://github.com/SteamWo1f/Optimized-Oasis/releases"><img src="https://cdn.jsdelivr.net/npm/@intergrav/devins-badges@3.1.0/assets/cozy/available/github_64h.png"></a>   <a href="https://steamwo1f.github.io/OOS/"><img src="https://raw.githubusercontent.com/intergrav/devins-badges/v3/assets/cozy/documentation/website_64h.png"></a>   <a href="https://modrinth.com/modpack/optimized-oasis"><img src="https://cdn.jsdelivr.net/npm/@intergrav/devins-badges@3.1.0/assets/cozy/available/modrinth_64h.png"></a></p>
+<p align="center"><a href="https://github.com/SteamWo1f/Optimized-Oasis/releases"><img src="https://cdn.jsdelivr.net/npm/@intergrav/devins-badges@3.1.0/assets/cozy/available/github_64h.png"></a>   <a href="https://oo.steamwolf.cc"><img src="https://raw.githubusercontent.com/intergrav/devins-badges/v3/assets/cozy/documentation/website_64h.png"></a>   <a href="https://modrinth.com/modpack/optimized-oasis"><img src="https://cdn.jsdelivr.net/npm/@intergrav/devins-badges@3.1.0/assets/cozy/available/modrinth_64h.png"></a></p>
 <p align="center"><img src="https://img.shields.io/modrinth/dt/5cPQqIcC?labelColor=%23290D5C&color=%23030026">   <img src="https://img.shields.io/modrinth/v/5cPQqIcC?labelColor=%23290D5C&color=%23030026">   <img src="https://img.shields.io/modrinth/game-versions/5cPQqIcC?labelColor=%23290D5C&color=%23030026"></p>
 
 
@@ -71,7 +71,7 @@ A: This was done primarily to remove raw mod files, among other reasons. Leading
 ## Credits
 <p><a href="https://quiltmc.org/en/"><img src="https://raw.githubusercontent.com/QuiltMC/art/9c6b2a3efd9cd0b5790f0d40aeb5ed9e4e8b82d7/brand/svg/quilt_powered_dark.svg" style="height: 64px;"></a></p>
 
-Optimized Oasis Modpack created by [SteamWolf](https://steamwolf.vercel.app/)
+Optimized Oasis Modpack created by [SteamWolf](https://steamwolf.cc)
 
 Panormana World by [o00gareth00o](https://www.planetminecraft.com/member/o00gareth00o/)
 
