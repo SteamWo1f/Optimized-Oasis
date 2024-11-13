@@ -64,13 +64,18 @@
       },
       {
         "id": "v6.0",
-        "updateType": "major",
+        "updateType": "minor",
         "releasedAt": 1709339916
       },
       {
         "id": "v6.1",
-        "updateType": "major",
+        "updateType": "minor",
         "releasedAt": 1718514590
+      },
+      {
+        "id": "v7.0",
+        "updateType": "minor",
+        "releasedAt": 1731472354
       }
     ]
   }

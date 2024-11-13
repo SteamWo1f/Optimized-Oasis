@@ -15,7 +15,7 @@ centerText = true
 resetBiomeCacheOnDimensionChange = true
 onlyUpdateAtSurface = true
 [dimensions]
-enabled = true
+enabled = false
 textFadeInTime = 10
 textDisplayTime = 70
 textFadeOutTime = 20
