@@ -3,14 +3,25 @@ type = fancymenu_layout
 layout-meta {
   identifier = about_screen
   render_custom_elements_behind_vanilla = false
-  last_edited_time = 1709270988977
+  last_edited_time = 1731893575707
   is_enabled = true
   randommode = false
   randomgroup = 1
   randomonlyfirsttime = false
   layout_index = 0
   custom_menu_title = About Optimized Oasis
-  [loading_requirement_container_meta:f431a721-d94d-47b5-9248-15df9e7ab810-1709270979943] = [groups:][instances:]
+  [loading_requirement_container_meta:b8ff1dec-6303-47b7-afbc-6d79056d3617-1731893568392] = [groups:][instances:]
+}
+
+customization {
+  action = setscale
+  scale = 2.0
+}
+
+customization {
+  action = autoscale
+  basewidth = 1920
+  baseheight = 1080
 }
 
 menu_background {
@@ -30,6 +41,8 @@ scroll_list_customization {
   show_scroll_list_header_footer_preview_in_editor = false
   repeat_scroll_list_header_texture = false
   repeat_scroll_list_footer_texture = false
+  show_screen_background_overlay_on_custom_background = false
+  apply_vanilla_background_blur = true
 }
 
 element {
@@ -115,9 +128,9 @@ element {
   appearance_delay_seconds = 1.0
   fade_in = false
   fade_in_speed = 1.0
-  anchor_point = bottom-centered
+  anchor_point = mid-centered
   x = -115
-  y = -100
+  y = 165
   width = 100
   height = 20
   stretch_x = false
@@ -144,9 +157,9 @@ element {
   appearance_delay_seconds = 1.0
   fade_in = false
   fade_in_speed = 1.0
-  anchor_point = bottom-centered
+  anchor_point = mid-centered
   x = 15
-  y = -100
+  y = 165
   width = 100
   height = 20
   stretch_x = false
@@ -173,9 +186,9 @@ element {
   appearance_delay_seconds = 1.0
   fade_in = false
   fade_in_speed = 1.0
-  anchor_point = bottom-centered
+  anchor_point = mid-centered
   x = 15
-  y = -140
+  y = 125
   width = 100
   height = 20
   stretch_x = false
@@ -202,9 +215,9 @@ element {
   appearance_delay_seconds = 1.0
   fade_in = false
   fade_in_speed = 1.0
-  anchor_point = bottom-centered
+  anchor_point = mid-centered
   x = -115
-  y = -140
+  y = 125
   width = 100
   height = 20
   stretch_x = false
@@ -231,9 +244,9 @@ element {
   appearance_delay_seconds = 1.0
   fade_in = false
   fade_in_speed = 1.0
-  anchor_point = bottom-centered
+  anchor_point = mid-centered
   x = -50
-  y = -60
+  y = 201
   width = 100
   height = 20
   stretch_x = false
@@ -241,47 +254,5 @@ element {
   stay_on_screen = true
   element_loading_requirement_container_identifier = 57829524-d52f-45eb-bdf9-0c4c181a3d7c-1707109455925
   [loading_requirement_container_meta:57829524-d52f-45eb-bdf9-0c4c181a3d7c-1707109455925] = [groups:][instances:]
-}
-
-element {
-  interactable = true
-  source = *(This screen is still a work in progress)*
-  source_mode = direct
-  shadow = false
-  scale = 1.0
-  base_color = #FFFFFFFF
-  text_border = 2
-  line_spacing = 2
-  enable_scrolling = true
-  auto_line_wrapping = true
-  remove_html_breaks = true
-  code_block_single_color = #737373FF
-  code_block_multi_color = #565656FF
-  headline_line_color = #A9A9A9FF
-  separation_line_color = #A9A9A9FF
-  hyperlink_color = #0771FCFF
-  quote_color = #818181FF
-  quote_indent = 8.0
-  quote_italic = false
-  bullet_list_dot_color = #A9A9A9FF
-  bullet_list_indent = 8.0
-  bullet_list_spacing = 3.0
-  parse_markdown = true
-  element_type = text_v2
-  instance_identifier = 97a53d83-0520-4566-bf6e-4361c6976338-1707109972539
-  appearance_delay = no_delay
-  appearance_delay_seconds = 1.0
-  fade_in = false
-  fade_in_speed = 1.0
-  anchor_point = bottom-centered
-  x = -105
-  y = -27
-  width = 211
-  height = 17
-  stretch_x = false
-  stretch_y = false
-  stay_on_screen = true
-  element_loading_requirement_container_identifier = 552c4dcd-b95e-4e63-ba2f-3b4993a98d93-1707107400702
-  [loading_requirement_container_meta:552c4dcd-b95e-4e63-ba2f-3b4993a98d93-1707107400702] = [groups:][instances:]
 }
 
