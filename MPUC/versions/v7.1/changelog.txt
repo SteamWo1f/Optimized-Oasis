@@ -3,3 +3,9 @@ Optimized Oasis 7.1
 This is just a small patch to the custom menus along with some newly updated mods.
 
 Thanks for playing :]
+
+***Small Post-Release Fixes:***
+
+*1: If the bed texture is reversed, you can try to remove the "g-p" folder in your config folder. This should fix the texture.*
+
+*2: If you are having trouble with resource packs, you can either remove or downgrade [MoreMcmeta](https://modrinth.com/mod/moremcmeta) to version 4.4.7, this should fix this issue.*
