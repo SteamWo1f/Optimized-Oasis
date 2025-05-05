@@ -7,7 +7,7 @@ _____________________________________
 <h1 align="center">Optimized Oasis</h1>
 
 
-<p align="center">Optimized Oasis is a lightweight Minecraft modpack that enhances your gameplay experience without adding any new items.</p>
+<p align="center">Optimized Oasis is a lightweight-ish Modpack that creates a enhanced yet vanilla version of Minecraft.</p>
 <p align="center"> <a href="https://www.youtube.com/watch?v=SGoJgRouGBQ">Modpack Trailer</a></p> <p align="center"> 
 <a href="https://discord.gg/ZXabV5xMa2">Discord Server</a></p>
 
@@ -37,11 +37,6 @@ This modpack is designed with the main aim of enhancing the game's performance a
 1. Click "Add instance".
 2. Select "Modrinth" or use "Import from zip" if you have a URL.
 3. Choose the modpack and press "OK".
-
-#### Using ATLauncher
-1. Navigate to the "Packs" tab.
-2. Select Modrinth on the left and search for your pack.
-3. Click "Play" or use "Add Manually" for direct IDs, slugs, or URLs.
 
 ## Screenshots
 #### Screenshots taken inside the modpack with the [Complementary Reimagined](https://modrinth.com/shader/complementary-reimagined) shaderpack
