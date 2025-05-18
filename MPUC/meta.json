@@ -85,7 +85,13 @@
       {
         "id": "v8",
         "updateType": "minor",
-        "releasedAt": 1747539889224
+        "releasedAt": 1747539889224,
+        "promotions": {
+            "downloads": {
+                "modrinth": "https://modrinth.com/modpack/optimized-oasis/version/8",
+                "generic": "https://github.com/SteamWo1f/Optimized-Oasis/releases/tag/v8.0"
+            }
+        }
       }
     ]
   }
