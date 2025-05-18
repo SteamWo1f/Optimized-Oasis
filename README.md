@@ -7,7 +7,7 @@ _____________________________________
 <h1 align="center">Optimized Oasis</h1>
 
 
-<p align="center">Optimized Oasis is a lightweight-ish Modpack that creates a enhanced yet vanilla version of Minecraft.</p>
+<p align="center">A lightweight-ish Modpack that creates an enhanced yet vanilla version of Minecraft.</p>
 <p align="center"> <a href="https://www.youtube.com/watch?v=SGoJgRouGBQ">Modpack Trailer</a></p> <p align="center"> 
 <a href="https://discord.gg/ZXabV5xMa2">Discord Server</a></p>
 
