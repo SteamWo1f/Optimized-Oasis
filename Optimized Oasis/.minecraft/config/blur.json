@@ -1,19 +1,24 @@
 {
-  "blurExclusions": [
-    "net.minecraft.class_408",
-    "com.replaymod.lib.de.johni0702.minecraft.gui.container.AbstractGuiOverlay$UserInputGuiScreen",
-    "ai.arcblroth.projectInception.client.InceptionInterfaceScreen",
-    "net.optifine.gui.GuiChatOF",
-    "io.github.darkkronicle.advancedchatcore.chat.AdvancedChatScreen",
-    "net.coderbot.iris.gui.screen.ShaderPackScreen"
-  ],
+  "configVersion": 2,
+  "blurContainers": true,
+  "blurTitleScreen": false,
+  "darkenTitleScreen": false,
   "fadeTimeMillis": 0,
   "fadeOutTimeMillis": 0,
-  "ease": true,
+  "animationCurve": "FLAT",
   "radius": 8,
+  "useGradient": true,
   "gradientStart": "#000000",
   "gradientStartAlpha": 75,
   "gradientEnd": "#000000",
   "gradientEndAlpha": 75,
-  "showScreenTitle": false
+  "gradientRotation": 0,
+  "rainbowMode": false,
+  "excludedScreens": [
+    "net.irisshaders.iris.gui.screen.ShaderPackScreen"
+  ],
+  "forceEnabledScreens": [
+    "dev.emi.emi.screen.RecipeScreen"
+  ],
+  "forceDisabledScreens": []
 }

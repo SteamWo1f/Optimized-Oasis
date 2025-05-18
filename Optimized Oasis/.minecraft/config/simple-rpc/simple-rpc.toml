@@ -1,253 +1,403 @@
+
+#General Config Section. See https://srpc.fdd-docs.com/introduction/
 [general]
-	#The Application ID of the Discord App to use. Replace this with your client id from the discord dashboard to change the name of the app
-	applicationID = 1095217894276743188
+	#The Application ID of the Discord App to use
+	applicationID = "1095217894276743188"
 	#Enable/Disable the mod
 	enabled = true
 	#Enable/Disable debugging mode. WARNING: MAY CAUSE LOG SPAM!
 	debugging = false
-	#Enable/Disable the in game config screen. ONLY AVAILABLE WHEN CLOTH CONFIG IS INSTALLED!
-	configScreen = true
 	#Display the Icon and Pack Name in place of LargeImage from compatible launchers. DOES NOT WORK WITH CUSTOM APPS! ONLY THE DEFAULT ONE!
 	launcherIntegration = false
+	#Allow using local image files, as RPC icons
+	rpcImageServer = false
+	#The URL of the RPC image server that will be used for local images. Restart required when changed
+	rpcImageServerUrl = "https://rpcavatar.firstdark.dev"
 	#Internal Version Number. NO TOUCHY!
-	version = 18
+	version = 26
 
+#The Game Loading event
 [init]
 	#Enable/Disable the Game Loading Event
 	enabled = true
-	#The first line of text under the app name
-	description = "Optimized Oasis is loading"
-	#The second line of text under the app name
-	state = "Game Starting..."
-	#The Asset ID/URL of the image to display as the large image
-	largeImageKey = ["icon"]
-	#The text that gets displayed when the large image is hovered
-	largeImageText = "Optimized Oasis is a lightweight Minecraft modpack that enhances your gameplay experience without adding any new items."
-	#The Asset ID/URL of the image to display as the small image
-	smallImageKey = ["mclogo"]
-	#The text that gets displayed when the small image is hovered
-	smallImageText = "%mods% mods installed"
-	#The buttons to display on Discord 
 
-	[[init.buttons]]
-		label = "Download Optimized Oasis"
-		url = "https://github.com/SteamWo1f/Optimized-Oasis"
+	#List of RPCs that will be displayed at random
+	[[init.presence]]
+		#The Activity type to use for this RPC. Valid types are: PLAYING, STREAMING, LISTENING, WATCHING, CUSTOM, COMPETING
+		type = "PLAYING"
+		#The first line of text under the app name
+		description = "Optimized Oasis is loading"
+		#The second line of text under the app name
+		state = "Game Starting..."
+		#The Asset ID or URLs of images to randomly use for the large image
+		largeImageKey = ["icon"]
+		#The text to show when someone hovers over the largeImage
+		largeImageText = "A lightweight-ish Modpack that creates a enhanced yet vanilla version of Minecraft."
+		#The Asset ID or URLs of images to randomly use for the small image
+		smallImageKey = ["icon"]
+		#The text to show when someone hovers over the smallImage
+		smallImageText = "{{game.mods}} mods installed"
+		#The Twitch or Youtube URL to use when type is set to STREAMING
+		streamingActivityUrl = "https://twitch.tv/twitch"
+		#List of buttons (max 2) to show on the RPC
+		
+		[[init.buttons]]
+			label = "Download Optimized Oasis"
+			url = "https://github.com/SteamWo1f/Optimized-Oasis"
 
+#The Main Menu event
 [main_menu]
 	#Enable/Disable the Main Menu Event
 	enabled = true
-	#The first line of text under the app name
-	description = "%player% is currently resting"
-	#The second line of text under the app name
-	state = "by the water on the oasis"
-	#The Asset ID/URL of the image to display as the large image
-	largeImageKey = ["icon"]
-	#The text that gets displayed when the large image is hovered
-	largeImageText = "Optimized Oasis is a lightweight Minecraft modpack that enhances your gameplay experience without adding any new items."
-	#The Asset ID/URL of the image to display as the small image
-	smallImageKey = ["mclogo"]
-	#The text that gets displayed when the small image is hovered
-	smallImageText = "%mods% mods installed"
-	#The buttons to display on Discord 
 
-	[[main_menu.buttons]]
-		label = "Download Optimized Oasis"
-		url = "https://github.com/SteamWo1f/Optimized-Oasis"
+	#List of RPCs that will be displayed at random
+	[[main_menu.presence]]
+		#The Activity type to use for this RPC. Valid types are: PLAYING, STREAMING, LISTENING, WATCHING, CUSTOM, COMPETING
+		type = "PLAYING"
+		#The first line of text under the app name
+		description = "{{player.name}} is currently resting"
+		#The second line of text under the app name
+		state = "Under the shade of the oasis."
+		#The Asset ID or URLs of images to randomly use for the large image
+		largeImageKey = ["icon"]
+		#The text to show when someone hovers over the largeImage
+		largeImageText = "A lightweight-ish Modpack that creates a enhanced yet vanilla version of Minecraft."
+		#The Asset ID or URLs of images to randomly use for the small image
+		smallImageKey = ["{{images.player}}"]
+		#The text to show when someone hovers over the smallImage
+		smallImageText = "{{player.name}}"
+		#The Twitch or Youtube URL to use when type is set to STREAMING
+		streamingActivityUrl = "https://twitch.tv/twitch"
+		#List of buttons (max 2) to show on the RPC
 
+		[[main_menu.buttons]]
+			label = "Download Optimized Oasis"
+			url = "https://github.com/SteamWo1f/Optimized-Oasis"
+
+#The Server List event
 [server_list]
 	#Enable/Disable the Server List Event
 	enabled = true
-	#The first line of text under the app name
-	description = "%player% is traveling the desert"
-	#The second line of text under the app name
-	state = "(Combing the sands for others)"
-	#The Asset ID/URL of the image to display as the large image
-	largeImageKey = ["icon"]
-	#The text that gets displayed when the large image is hovered
-	largeImageText = "Optimized Oasis is a lightweight Minecraft modpack that enhances your gameplay experience without adding any new items."
-	#The Asset ID/URL of the image to display as the small image
-	smallImageKey = ["multiplayer"]
-	#The text that gets displayed when the small image is hovered
-	smallImageText = "%mods% mods installed"
-	#The buttons to display on Discord 
 
-	[[server_list.buttons]]
-		label = "Download Optimized Oasis"
-		url = "https://github.com/SteamWo1f/Optimized-Oasis"
+	#List of RPCs that will be displayed at random
+	[[server_list.presence]]
+		#The Activity type to use for this RPC. Valid types are: PLAYING, STREAMING, LISTENING, WATCHING, CUSTOM, COMPETING
+		type = "PLAYING"
+		#The first line of text under the app name
+		description = "{{player.name}} is traveling the desert,"
+		#The second line of text under the app name
+		state = "Combing the sands for others."
+		#The Asset ID or URLs of images to randomly use for the large image
+		largeImageKey = ["icon"]
+		#The text to show when someone hovers over the largeImage
+		largeImageText = "A lightweight-ish Modpack that creates a enhanced yet vanilla version of Minecraft."
+		#The Asset ID or URLs of images to randomly use for the small image
+		smallImageKey = ["{{images.player}}"]
+		#The text to show when someone hovers over the smallImage
+		smallImageText = "{{player.name}}"
+		#The Twitch or Youtube URL to use when type is set to STREAMING
+		streamingActivityUrl = "https://twitch.tv/twitch"
+		#List of buttons (max 2) to show on the RPC
 
+		[[server_list.buttons]]
+			label = "Download Optimized Oasis"
+			url = "https://github.com/SteamWo1f/Optimized-Oasis"
+
+#The Realms Screen event
 [realms_list]
 	#Enable/Disable the Realms Screen Event
 	enabled = true
-	#The first line of text under the app name
-	description = "%player% is traveling the Realms"
-	#The second line of text under the app name
-	state = "(Combing the sands for others)"
-	#The Asset ID/URL of the image to display as the large image
-	largeImageKey = ["icon"]
-	#The text that gets displayed when the large image is hovered
-	largeImageText = "Optimized Oasis is a lightweight Minecraft modpack that enhances your gameplay experience without adding any new items."
-	#The Asset ID/URL of the image to display as the small image
-	smallImageKey = ["multiplayer"]
-	#The text that gets displayed when the small image is hovered
-	smallImageText = "%mods% mods installed"
-	#The buttons to display on Discord 
 
-	[[realms_list.buttons]]
-		label = "Download Optimized Oasis"
-		url = "https://github.com/SteamWo1f/Optimized-Oasis"
+	#List of RPCs that will be displayed at random
+	[[realms_list.presence]]
+		#The Activity type to use for this RPC. Valid types are: PLAYING, STREAMING, LISTENING, WATCHING, CUSTOM, COMPETING
+		type = "PLAYING"
+		#The first line of text under the app name
+		description = "{{player.name}} is looking for a Realm"
+		#The second line of text under the app name
+		state = "Combing the sands for others."
+		#The Asset ID or URLs of images to randomly use for the large image
+		largeImageKey = ["icon"]
+		#The text to show when someone hovers over the largeImage
+		largeImageText = "A lightweight-ish Modpack that creates a enhanced yet vanilla version of Minecraft."
+		#The Asset ID or URLs of images to randomly use for the small image
+		smallImageKey = ["{{images.player}}"]
+		#The text to show when someone hovers over the smallImage
+		smallImageText = "{{player.name}}"
+		#The Twitch or Youtube URL to use when type is set to STREAMING
+		streamingActivityUrl = "https://twitch.tv/twitch"
+		#List of buttons (max 2) to show on the RPC
 
+		[[realms_list.buttons]]
+			label = "Download Optimized Oasis"
+			url = "https://github.com/SteamWo1f/Optimized-Oasis"
+
+#The Join Game Event
 [join_game]
 	#Enable/Disable the Join Game Event
 	enabled = true
-	#The first line of text under the app name
-	description = "%player% is joining a game"
-	#The second line of text under the app name
-	state = "Game Starting..."
-	#The Asset ID/URL of the image to display as the large image
-	largeImageKey = ["icon"]
-	#The text that gets displayed when the large image is hovered
-	largeImageText = "Optimized Oasis is a lightweight Minecraft modpack that enhances your gameplay experience without adding any new items."
-	#The Asset ID/URL of the image to display as the small image
-	smallImageKey = ["mclogo"]
-	#The text that gets displayed when the small image is hovered
-	smallImageText = "%mods% mods installed"
-	#The buttons to display on Discord 
 
-	[[join_game.buttons]]
-		label = "Download Optimized Oasis"
-		url = "https://github.com/SteamWo1f/Optimized-Oasis"
+	#List of RPCs that will be displayed at random
+	[[join_game.presence]]
+		#The Activity type to use for this RPC. Valid types are: PLAYING, STREAMING, LISTENING, WATCHING, CUSTOM, COMPETING
+		type = "PLAYING"
+		#The first line of text under the app name
+		description = "{{player.name}} is joining a game"
+		#The second line of text under the app name
+		state = "Joining Game"
+		#The Asset ID or URLs of images to randomly use for the large image
+		largeImageKey = ["icon"]
+		#The text to show when someone hovers over the largeImage
+		largeImageText = "A lightweight-ish Modpack that creates a enhanced yet vanilla version of Minecraft."
+		#The Asset ID or URLs of images to randomly use for the small image
+		smallImageKey = ["{{images.player}}"]
+		#The text to show when someone hovers over the smallImage
+		smallImageText = "{{player.name}}"
+		#The Twitch or Youtube URL to use when type is set to STREAMING
+		streamingActivityUrl = "https://twitch.tv/twitch"
+		#List of buttons (max 2) to show on the RPC
 
+		[[join_game.buttons]]
+			label = "Download Optimized Oasis"
+			url = "https://github.com/SteamWo1f/Optimized-Oasis"
+
+#The Single Player Event
 [single_player]
 	#Enable/Disable the Single Player Event
 	enabled = true
-	#The first line of text under the app name
-	description = "Exploring %world%"
-	#The second line of text under the app name
-	state = "(Alone in the infinite dunes)"
-	#The Asset ID/URL of the image to display as the large image
-	largeImageKey = ["icon"]
-	#The text that gets displayed when the large image is hovered
-	largeImageText = "Optimized Oasis is a lightweight Minecraft modpack that enhances your gameplay experience without adding any new items."
-	#The Asset ID/URL of the image to display as the small image
-	smallImageKey = ["single"]
-	#The text that gets displayed when the small image is hovered
-	smallImageText = "%mods% mods installed"
-	#The buttons to display on Discord 
 
-	[[single_player.buttons]]
-		label = "Download Optimized Oasis"
-		url = "https://github.com/SteamWo1f/Optimized-Oasis"
+	#List of RPCs that will be displayed at random
+	[[single_player.presence]]
+		#The Activity type to use for this RPC. Valid types are: PLAYING, STREAMING, LISTENING, WATCHING, CUSTOM, COMPETING
+		type = "PLAYING"
+		#The first line of text under the app name
+		description = "Exploring the dunes."
+		#The second line of text under the app name
+		state = "Searching for the oasis."
+		#The Asset ID or URLs of images to randomly use for the large image
+		largeImageKey = ["icon"]
+		#The text to show when someone hovers over the largeImage
+		largeImageText = "A lightweight-ish Modpack that creates a enhanced yet vanilla version of Minecraft."
+		#The Asset ID or URLs of images to randomly use for the small image
+		smallImageKey = ["{{images.player}}"]
+		#The text to show when someone hovers over the smallImage
+		smallImageText = "{{player.name}}"
+		#The Twitch or Youtube URL to use when type is set to STREAMING
+		streamingActivityUrl = "https://twitch.tv/twitch"
+		#List of buttons (max 2) to show on the RPC
 
+		[[single_player.buttons]]
+			label = "Download Optimized Oasis"
+			url = "https://github.com/SteamWo1f/Optimized-Oasis"
+
+#The Multi Player Event
 [multi_player]
 	#Enable/Disable the Multi Player Event
 	enabled = true
-	#The first line of text under the app name
-	description = "Travleing %servername% with %players%"
-	#The second line of text under the app name
-	state = "(Camping under the stars)"
-	#The Asset ID/URL of the image to display as the large image
-	largeImageKey = ["icon"]
-	#The text that gets displayed when the large image is hovered
-	largeImageText = "Optimized Oasis is a lightweight Minecraft modpack that enhances your gameplay experience without adding any new items."
-	#The Asset ID/URL of the image to display as the small image
-	smallImageKey = ["multiplayer"]
-	#The text that gets displayed when the small image is hovered
-	smallImageText = "%mods% mods installed"
-	#The buttons to display on Discord 
 
-	[[multi_player.buttons]]
-		label = "Download Optimized Oasis"
-		url = "https://github.com/SteamWo1f/Optimized-Oasis"
+	#List of RPCs that will be displayed at random
+	[[multi_player.presence]]
+		#The Activity type to use for this RPC. Valid types are: PLAYING, STREAMING, LISTENING, WATCHING, CUSTOM, COMPETING
+		type = "PLAYING"
+		#The first line of text under the app name
+		description = "Exploring {{server.name}} with {{server.players.count}} players"
+		#The second line of text under the app name
+		state = "Enjoying the company"
+		#The Asset ID or URLs of images to randomly use for the large image
+		largeImageKey = ["icon"]
+		#The text to show when someone hovers over the largeImage
+		largeImageText = "A lightweight-ish Modpack that creates a enhanced yet vanilla version of Minecraft."
+		#The Asset ID or URLs of images to randomly use for the small image
+		smallImageKey = ["{{images.player}}"]
+		#The text to show when someone hovers over the smallImage
+		smallImageText = "{{player.name}}"
+		#The Twitch or Youtube URL to use when type is set to STREAMING
+		streamingActivityUrl = "https://twitch.tv/twitch"
+		#List of buttons (max 2) to show on the RPC
 
+		[[multi_player.buttons]]
+			label = "Download Optimized Oasis"
+			url = "https://github.com/SteamWo1f/Optimized-Oasis"
+
+#The Realms Game Event
 [realms]
 	#Enable/Disable the Realms Game Event
 	enabled = true
-	#The first line of text under the app name
-	description = "Currently exploring %realmname%"
-	#The second line of text under the app name
-	state = "Playing on a Realm"
-	#The Asset ID/URL of the image to display as the large image
-	largeImageKey = ["icon"]
-	#The text that gets displayed when the large image is hovered
-	largeImageText = "Optimized Oasis is a lightweight Minecraft modpack that enhances your gameplay experience without adding any new items."
-	#The Asset ID/URL of the image to display as the small image
-	smallImageKey = ["multiplayer"]
-	#The text that gets displayed when the small image is hovered
-	smallImageText = "%realmdescription%"
-	#The buttons to display on Discord 
 
-	[[realms.buttons]]
-		label = "Download Optimized Oasis"
-		url = "https://github.com/SteamWo1f/Optimized-Oasis"
+	#List of RPCs that will be displayed at random
+	[[realms.presence]]
+		#The Activity type to use for this RPC. Valid types are: PLAYING, STREAMING, LISTENING, WATCHING, CUSTOM, COMPETING
+		type = "PLAYING"
+		#The first line of text under the app name
+		description = "Playing on {{realm.name}}"
+		#The second line of text under the app name
+		state = "Playing on a Realm"
+		#The Asset ID or URLs of images to randomly use for the large image
+		largeImageKey = ["icon"]
+		#The text to show when someone hovers over the largeImage
+		largeImageText = "A lightweight-ish Modpack that creates a enhanced yet vanilla version of Minecraft."
+		#The Asset ID or URLs of images to randomly use for the small image
+		smallImageKey = ["{{images.player}}"]
+		#The text to show when someone hovers over the smallImage
+		smallImageText = "{{player.name}}"
+		#The Twitch or Youtube URL to use when type is set to STREAMING
+		streamingActivityUrl = "https://twitch.tv/twitch"
+		#List of buttons (max 2) to show on the RPC
 
+		[[realms.buttons]]
+			label = "Download Optimized Oasis"
+			url = "https://github.com/SteamWo1f/Optimized-Oasis"
+
+#The Paused Event
+[paused]
+	#Enable/Disable the Pause Event
+	enabled = true
+
+	#List of RPCs that will be displayed at random
+	[[paused.presence]]
+		#The Activity type to use for this RPC. Valid types are: PLAYING, STREAMING, LISTENING, WATCHING, CUSTOM, COMPETING
+		type = "PLAYING"
+		#The first line of text under the app name
+		description = "Resting"
+		#The second line of text under the app name
+		state = "Game Paused"
+		#The Asset ID or URLs of images to randomly use for the large image
+		largeImageKey = ["icon"]
+		#The text to show when someone hovers over the largeImage
+		largeImageText = "A lightweight-ish Modpack that creates a enhanced yet vanilla version of Minecraft."
+		#The Asset ID or URLs of images to randomly use for the small image
+		smallImageKey = ["{{images.player}}"]
+		#The text to show when someone hovers over the smallImage
+		smallImageText = "{{player.name}}"
+		#The Twitch or Youtube URL to use when type is set to STREAMING
+		streamingActivityUrl = "https://twitch.tv/twitch"
+		#List of buttons (max 2) to show on the RPC
+
+		[[paused.buttons]]
+			label = "Download Optimized Oasis"
+			url = "https://github.com/SteamWo1f/Optimized-Oasis"
+
+#Fallback event for disabled events
 [generic]
-	#The first line of text under the app name
-	description = "Playing Minecraft"
-	#The second line of text under the app name
-	state = "(Soon to rest, Soon to awaken)"
-	#The Asset ID/URL of the image to display as the large image
-	largeImageKey = ["icon"]
-	#The text that gets displayed when the large image is hovered
-	largeImageText = "Optimized Oasis is a lightweight Minecraft modpack that enhances your gameplay experience without adding any new items."
-	#The Asset ID/URL of the image to display as the small image
-	smallImageKey = ["mclogo"]
-	#The text that gets displayed when the small image is hovered
-	smallImageText = "%mods% mods installed"
-	#The buttons to display on Discord 
 
-	[[generic.buttons]]
-		label = "Download Optimized Oasis"
-		url = "https://github.com/SteamWo1f/Optimized-Oasis"
+	#List of RPCs that will be displayed at random
+	[[generic.presence]]
+		#The Activity type to use for this RPC. Valid types are: PLAYING, STREAMING, LISTENING, WATCHING, CUSTOM, COMPETING
+		type = "PLAYING"
+		#The first line of text under the app name
+		description = "Playing Minecraft"
+		#The second line of text under the app name
+		state = "Soon to rest, Soon to awaken"
+		#The Asset ID or URLs of images to randomly use for the large image
+		largeImageKey = ["icon"]
+		#The text to show when someone hovers over the largeImage
+		largeImageText = "A lightweight-ish Modpack that creates a enhanced yet vanilla version of Minecraft."
+		#The Asset ID or URLs of images to randomly use for the small image
+		smallImageKey = ["icon"]
+		#The text to show when someone hovers over the smallImage
+		smallImageText = "{{game.mods}} mods installed"
+		#The Twitch or Youtube URL to use when type is set to STREAMING
+		streamingActivityUrl = "https://twitch.tv/twitch"
+		#List of buttons (max 2) to show on the RPC
 
+		[[paused.buttons]]
+			label = "Download Optimized Oasis"
+			url = "https://github.com/SteamWo1f/Optimized-Oasis"
+
+#Custom Config Variables that you can use
 [custom]
 	#Must these variables be parsed along with other variables
 	enabled = true
 	#Your custom variables to add
 	variables = []
 
+#Dimension Information Overrides
 [dimension_overrides]
-	enabled = true
+	#Allows you to override the displayed values for dimensions
+	enabled = false
 
+	#The Dimensions to override
 	[[dimension_overrides.dimensions]]
+		#The name of the Dimension/Biome to override. FORMAT: modid:dimension or modid:biome
 		name = "overworld"
-		description = "%player% is in The Overworld"
-		state = "(The sun shines brightly)"
-		largeImageKey = ["icon"]
-		largeImageText = "In the Overworld"
-		smallImageKey = ["over"]
-		smallImageText = "%mods% mods installed"
+
+		#List of RPCs that will be displayed at random
+		[[dimension_overrides.dimensions.presence]]
+			#The Activity type to use for this RPC. Valid types are: PLAYING, STREAMING, LISTENING, WATCHING, CUSTOM, COMPETING
+			type = "PLAYING"
+			#The first line of text under the app name
+			description = "{{player.name}} is in The Overworld"
+			#The second line of text under the app name
+			state = ""
+			#The Asset ID or URLs of images to randomly use for the large image
+			largeImageKey = ["overworld"]
+			#The text to show when someone hovers over the largeImage
+			largeImageText = "In the Overworld"
+			#The Asset ID or URLs of images to randomly use for the small image
+			smallImageKey = ["icon"]
+			#The text to show when someone hovers over the smallImage
+			smallImageText = "{{game.mods}} mods installed"
+			#The Twitch or Youtube URL to use when type is set to STREAMING
+			streamingActivityUrl = "https://twitch.tv/twitch"
+			#List of buttons (max 2) to show on the RPC
 
 		[[dimension_overrides.dimensions.buttons]]
 			label = "Download Optimized Oasis"
 			url = "https://github.com/SteamWo1f/Optimized-Oasis"
 
-
 	[[dimension_overrides.dimensions]]
+		#The name of the Dimension/Biome to override. FORMAT: modid:dimension or modid:biome
 		name = "the_nether"
-		description = "%player% is in The Nether"
-		state = "(The lava heats your skin)"
-		largeImageKey = ["icon"]
-		largeImageText = "In the Nether"
-		smallImageKey = ["nether"]
-		smallImageText = "%mods% mods installed"
+
+		#List of RPCs that will be displayed at random
+		[[dimension_overrides.dimensions.presence]]
+			#The Activity type to use for this RPC. Valid types are: PLAYING, STREAMING, LISTENING, WATCHING, CUSTOM, COMPETING
+			type = "PLAYING"
+			#The first line of text under the app name
+			description = "{{player.name}} is in The Nether"
+			#The second line of text under the app name
+			state = ""
+			#The Asset ID or URLs of images to randomly use for the large image
+			largeImageKey = ["nether"]
+			#The text to show when someone hovers over the largeImage
+			largeImageText = "In the Nether"
+			#The Asset ID or URLs of images to randomly use for the small image
+			smallImageKey = ["icon"]
+			#The text to show when someone hovers over the smallImage
+			smallImageText = "{{game.mods}} mods installed"
+			#The Twitch or Youtube URL to use when type is set to STREAMING
+			streamingActivityUrl = "https://twitch.tv/twitch"
+			#List of buttons (max 2) to show on the RPC
 
 		[[dimension_overrides.dimensions.buttons]]
 			label = "Download Optimized Oasis"
 			url = "https://github.com/SteamWo1f/Optimized-Oasis"
-
 
 	[[dimension_overrides.dimensions]]
+		#The name of the Dimension/Biome to override. FORMAT: modid:dimension or modid:biome
 		name = "the_end"
-		description = "%player% is in The End"
-		state = "(Exploring the void)"
-		largeImageKey = ["icon"]
-		largeImageText = "In the End"
-		smallImageKey = ["end"]
-		smallImageText = "%mods% mods installed"
+
+		#List of RPCs that will be displayed at random
+		[[dimension_overrides.dimensions.presence]]
+			#The Activity type to use for this RPC. Valid types are: PLAYING, STREAMING, LISTENING, WATCHING, CUSTOM, COMPETING
+			type = "PLAYING"
+			#The first line of text under the app name
+			description = "{{player.name}} is in The End"
+			#The second line of text under the app name
+			state = ""
+			#The Asset ID or URLs of images to randomly use for the large image
+			largeImageKey = ["end"]
+			#The text to show when someone hovers over the largeImage
+			largeImageText = "In the End"
+			#The Asset ID or URLs of images to randomly use for the small image
+			smallImageKey = ["icon"]
+			#The text to show when someone hovers over the smallImage
+			smallImageText = "{{game.mods}} mods installed"
+			#The Twitch or Youtube URL to use when type is set to STREAMING
+			streamingActivityUrl = "https://twitch.tv/twitch"
+			#List of buttons (max 2) to show on the RPC
 
 		[[dimension_overrides.dimensions.buttons]]
 			label = "Download Optimized Oasis"
 			url = "https://github.com/SteamWo1f/Optimized-Oasis"
-
-
 

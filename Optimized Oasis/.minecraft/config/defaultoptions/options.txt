@@ -1,0 +1,6 @@
+fullscreen:true
+guiScale:2
+renderClouds:"true"
+renderDistance:20
+simulationDistance:10
+resourcePacks:["vanilla","fabric","file/Oasis.zip"]
