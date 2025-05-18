@@ -81,6 +81,11 @@
         "id": "v7.1",
         "updateType": "minor",
         "releasedAt": 1731894300957
+      },
+      {
+        "id": "v8.0",
+        "updateType": "minor",
+        "releasedAt": 1747539889224
       }
     ]
   }
