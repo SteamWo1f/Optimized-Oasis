@@ -64,9 +64,10 @@ A: This was done primarily to remove raw mod files, among other reasons. Leading
 </details>
 
 ## Credits
-<p><a href="https://quiltmc.org/en/"><img src="https://raw.githubusercontent.com/QuiltMC/art/9c6b2a3efd9cd0b5790f0d40aeb5ed9e4e8b82d7/brand/svg/quilt_powered_dark.svg" style="height: 64px;"></a></p>
 
-Optimized Oasis Modpack created by [SteamWolf](https://steamwolf.cc)
+Powerd by [Fabric](https://fabricmc.net/)
+
+Optimized Oasis Modpack created by [SteamWolf](https://steamwolf.cc/)
 
 Panormana World by [o00gareth00o](https://www.planetminecraft.com/member/o00gareth00o/)
 
@@ -74,9 +75,15 @@ Icon background art by upklyak on [Freepik](https://www.freepik.com/free-vector/
 
 Badges from [devins-badges](https://github.com/intergrav/devins-badges/tree/v3)
 
+***Screenshots:*** *Worldgen created by the Tectonic and Terralith mods and shaders are the Complementary Reimagined shaders*
+
 *(this project is not sponsored)*
 
 ***If there are any problems with licenses, mods, etc.. please contact me at: [optimized.oasis.modpack.help@gmail.com](mailto:optimized.oasis.modpack.help@gmail.com)***
+
+
+# Modlist:
+[Current modlist can be found on the Optimized Oasis website](https://oo.steamwolf.cc/modlist/)
 
 - - - - - -
 # Modlist:
