@@ -6,7 +6,7 @@ And that's not all, Optimized Oasis has switched from Quilt to Fabric as it's ch
 This is not to say that Quilt is bad in any way. I simply wanted to switch over to a loader with a more stable and active development, along with larger community support. 
 Nonetheless, thank you to the Quilt devs for what you have created, and I wish you luck.
 
-Along with that, since we have both updated the version and loader. There have been a lot of additions and removals to Optimized Oasis. The full list is below.
+Along with that, since I have both updated the version and loader. There have been a lot of additions and removals to Optimized Oasis. The full list is below.
 
 Added:
 - [Achievements Optimizer](https://modrinth.com/mod/achievements-optimizer)
